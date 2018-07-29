@@ -10,14 +10,13 @@ const options = {
 function addChild(currentIndex, data) {
   let subTree = [];
   const currentCode = data[currentIndex].code.trim();
-  let isSameLevel = true;
   // put while loop here for the same level codes
   let newIndex = currentIndex + 1;
   while(true) {
     if(newIndex < data.length) {
       const nextCode = data[newIndex].code.trim();
       if(nextCode.length >= currentCode.length &&
-         nextCode.slice(0, currentCode.length) == currentCode)
+         nextCode.slice(0, currentCode.length) === currentCode)
       {
         let element = addChild(newIndex, data);
         subTree.push({
@@ -36,7 +35,6 @@ function addChild(currentIndex, data) {
       return [newIndex, subTree];
     }
   }
-  return [newIndex, subTree];
 }
 
 function createTree(searchedWord, data) {

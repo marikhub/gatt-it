@@ -1,4 +1,3 @@
-
 const bgImageArray = ["lonely.jpg", "uluwatu.jpg", "carezza-lake.jpg", "batu-bolong-temple.jpg"];
 const base = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/full-";
 const secs = 4;
