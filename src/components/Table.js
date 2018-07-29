@@ -16,7 +16,7 @@ const Table = ({ filteredcodes, rowOnSelect }) => {
 
   return (
     <BootstrapTable
-    className="pa3 ma2"
+    className="pa2"
     data={filteredcodes}
     options={options} 
     selectRow={selectRowProp}

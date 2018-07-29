@@ -1,0 +1,6 @@
+1) Ask more precise about first algorithm.
+2) Expand automatically grids that have match inside (to do).
+3) Clean the code and algorithms.
+4) Make UX better and more beautiful
+5) Expand + Selectable rows bugs.
+6) Different length of codes in different tables?
